@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-size: cover;
+  font-family: 'Patrick Hand SC', sans-serif;
+}
+
+a:link {
+  text-decoration: none
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+}
+
+header h2 {
+  display: inline-block;
+  position: absolute;
+  left: 30%;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  left: 60%;
+}
+
+header h2 a {
+  font-size: 70px;
+}
+
+header ul li a {
+  font-size: 40px;
+}
+/*#main-title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a[href="index.html"]::first-letter {
+  font-size: 200em;
+}
+
+footer div {
+  float: left;
+  width: 45%;
+  font-size: 0.75em;
+}
+
+footer nav {
+  float: right;
+  width: 45%;
+  vertical-align: top;
+}*/
