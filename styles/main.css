@@ -164,12 +164,14 @@ main section:last-of-type h2 {
   padding-top: 100px;
 }
 
-footer div {
+/*------------------------------------*/
+
+/*footer div {
   float: left;
   width: 45%;
   font-size: 0.75em;
-  /*display: inline-block;*/
-}
+  display: inline-block;
+}*/
 
 /*footer div h4 {
   display: inline-block;
@@ -183,4 +185,27 @@ footer nav {
   float: right;
   width: 45%;
   vertical-align: top;
+  padding-left: 30%;
+  /*margin-bottom: 20%;*/
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+}
+#disclaimer {
+  width: 50%;
+}
+footer h4 {
+  margin: 0px;
+  display: inline-block;
+}
+footer p {
+  display: inline;
+}
+.disclaimer-text {
+  width: 60%;
+  padding-top: 5%;
+  text-align: justify;
+  padding-left: 10px;
 }
