@@ -51,7 +51,7 @@ header h2 a {
 }
 
 header ul li a {
-  font-size: 30px;
+  font-size: 2.5vw;
   margin-left: 40px;
 }
 
@@ -74,17 +74,6 @@ header ul li a {
 main section:first-of-type {
   position: relative;
   background-image: url('../assets/hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 30em;
-  top: 6.2em;
-}
-
-main section:last-of-type {
-  position: relative;
-  background-image: url('../assets/everybody.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -132,11 +121,63 @@ section h2 {
 
 /*--------------------------------*/
 
+main section:nth-child(3) {
+  display: inline-block;
+  border: solid black 1px;
+  margin-top: 4em;
+}
+
+main section:nth-child(3) div {
+  float: left;
+  width: 50%;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 4em;
+}
+
+[alt="Cat playing with mouse on chair"] {
+  float: right;
+  width: 50%;
+  padding-top: 2.5em;
+  padding-right: 4em;
+  padding-bottom: 2.5em;
+}
+
+/*----------------------------------*/
+main section:last-of-type {
+  /*position: relative;*/
+  background-image: url('../assets/everybody.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 30em;
+  top: 6.2em;
+  margin-top: -110px;
+
+}
+
+main section:last-of-type h2 {
+  color: seashell;
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 100px;
+}
+
 footer div {
   float: left;
   width: 45%;
   font-size: 0.75em;
+  /*display: inline-block;*/
 }
+
+/*footer div h4 {
+  display: inline-block;
+}
+
+#disclaimer {
+  display: inline-block;
+}*/
 
 footer nav {
   float: right;
